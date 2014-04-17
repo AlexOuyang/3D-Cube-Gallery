@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Read about normalize.css here: http://necolas.github.io/normalize.css/ -->
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css" />
+  <script src="css/normalize.css"></script>
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="js/keepScroll.js"></script>
+  <script src="js/jquery.cookie.js"></script>
+  <script src="js/main.js"></script>
+  <script src='https://raw.githubusercontent.com/AlexOuyang/3D-cube-Computer-Vision/master/js/gest.js'></script>
+
+
+  <title>This is a title.</title>
+</head>
+<body>
+  <div id="page">
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/gallery">Photo Gallery</li>
+      </ul>
+    </nav>
+
+    <div id="content">
+      <%= yield %>
+    </div>
+  </div>
+</body>
+</html>
