@@ -42,7 +42,7 @@ My computer is set up slightly differently so I don't need to use `sudo`, but th
 
 ### Using 3D-Cube-Gallery
 
-At this point you have a real, live web application running on your computer.  Open a browser and go to [http://localhost:4567](http://localhost:4567) and you should see the "Superwall" application.
+At this point you have a real, live web application running on your computer.  Open a browser and go to [http://localhost:4567](http://localhost:4567) and you should see the "3D-Cube-Gallery" application.
 
 ### Using Git
 
@@ -54,7 +54,7 @@ At this point you have a real, live web application running on your computer.  O
 1. Commit your changes with a commit message — the `-m` means "message" and the bit between the quotes is the (required) commit message
 
    ```bash
-   git commit -m "Saving my changes to superwall"
+   git commit -m "Saving my changes to 3D-Cube-Gallery"
    ```
 1. Push your changes to GitHub — you might be prompted for your username and password again
 
